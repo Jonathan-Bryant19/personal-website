@@ -1,5 +1,7 @@
 body {
-    background: rgb(255, 255, 255);
+    background: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 li {
@@ -28,8 +30,8 @@ ul {
 }
 
 #profile-pic {
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
     display: block;
     border-radius: 50%;
     margin-left: auto;
@@ -41,3 +43,29 @@ ul {
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
+p {
+    font-size: 22px;
+}
+
+#aboutMe {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* copied from w3schools following google search */
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* copied from w3schools following google search */
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
