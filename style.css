@@ -58,14 +58,25 @@ p {
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
     float: left;
-    width: 33.33%;
+    width: 32%;
     padding: 5px;
+    display: flex;
+    align-content: center;
   }
-  
+
   /* copied from w3schools following google search */
   /* Clear floats after image containers */
-  .row::after {
+.row::after {
     content: "";
     clear: both;
     display: table;
   }
+
+.image-row {
+      width: 80%;
+      height: 80%;
+      border-radius: 25%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
